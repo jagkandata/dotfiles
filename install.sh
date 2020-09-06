@@ -8,4 +8,6 @@ ln -sf config/rofi ~/.config/rofi
 ln -sf Xresources ~/.Xresources
 ln -sf xinitrc ~/.xinitrc
 
+cd vim && sh ./viminstall.sh
+
 yay -S - < packages.txt

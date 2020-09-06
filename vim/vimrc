@@ -1,0 +1,24 @@
+" Truly Vi(mproved), no VI-compability
+set nocompatible
+
+" look&feel
+set number
+syntax on
+
+" tabs and indenting
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" Turn off arrowkeys
+noremap     <Up>    <Nop>
+noremap     <Down>  <Nop>
+noremap     <Left>  <Nop>
+noremap     <Right> <Nop>
+
+" Use , instead of \ as leader
+let mapleader=','
+
+" Let's use a common directory for all swaps and backups to avoid cluttering projects
+set backupdir=~/.vim/backup
+set directory=~/.vim/backup
