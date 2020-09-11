@@ -6,9 +6,12 @@ set number
 syntax on
 
 " tabs and indenting
+filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
+
 
 " Turn off arrowkeys
 noremap     <Up>    <Nop>
