@@ -1,13 +1,14 @@
 #!/bin/sh
 
-ln -sf config/dunst ~/.config/dunst
-ln -sf config/i3 ~/.config/i3
-ln -sf config/picom.conf ~/.config/picom.conf
-ln -sf config/polybar ~/.config/polybar
-ln -sf config/rofi ~/.config/rofi
-ln -sf Xresources ~/.Xresources
-ln -sf xinitrc ~/.xinitrc
+DIR=$(dirname $0)
+ln -sf $DIR/config/dunst ~/.config/dunst
+ln -sf $DIR/config/i3 ~/.config/i3
+ln -sf $DIR/config/picom.conf ~/.config/picom.conf
+ln -sf $DIR/config/polybar ~/.config/polybar
+ln -sf $DIR/config/rofi ~/.config/rofi
+ln -sf $DIR/Xresources ~/.Xresources
+ln -sf $DIR/xinitrc ~/.xinitrc
 
-cd vim && sh ./viminstall.sh
+cd $DIR/vim && sh ./viminstall.sh
 
 yay -S - < packages.txt

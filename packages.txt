@@ -125,7 +125,6 @@ orchis-theme-git
 otf-san-francisco
 picom-ibhagwan-git
 polybar
-spotify
 tamzen-font-git
 ttf-breeze-sans
 ttf-material-design-icons-git
