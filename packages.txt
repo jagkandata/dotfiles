@@ -119,6 +119,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 zsh
+spotify
 brave-bin
 nerd-fonts-fira-code
 orchis-theme-git
